@@ -6,7 +6,7 @@ export const handle = createSitemap("/", 1);
 export default function Route() {
   return (
     <Layout>
-      <section className={cn("prose-config")}>
+      <section className={cn("prose-config text-justify")}>
         <h3>- Nog één plaats beschikbaar! -</h3>
         <p>
           “Houtduif de Wij” en “Torenvalk de Wij” zijn twee prachtig en

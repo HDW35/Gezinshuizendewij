@@ -50,7 +50,7 @@ export default function Route() {
       duration: 1500,
       delay: 100,
       smooth: true,
-      offset: -64,
+      offset: -54,
     });
   };
 
@@ -91,6 +91,7 @@ export default function Route() {
   return (
     <Layout>
       <section>
+        <Element name="carousel" ref={reference} />
         <Tabs
           onValueChange={(value: string) => {
             setTag(value);
@@ -113,7 +114,6 @@ export default function Route() {
               })}
           </TabsList>
         </Tabs>
-        <Element name="carousel" ref={reference} />
         <AspectRatio ratio={16 / 9} className="pb-4 pt-2">
           <Carousel slide={false} className="z-0 rounded-lg bg-slate-200">
             {currentResources &&

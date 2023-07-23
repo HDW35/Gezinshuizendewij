@@ -16,7 +16,7 @@ export const handle = createSitemap("/wie-zijn-wij", 0.1);
 export default function Route() {
   return (
     <Layout>
-      <section className={cn("prose-config")}>
+      <section className={cn("prose-config text-justify")}>
         <h3>Wie zijn wij?</h3>
         <p>Het team van Gezinshuizen de Wij bestaat uit:</p>
         <p>
@@ -35,9 +35,7 @@ export default function Route() {
         <Card className="max-w-sm rounded-lg">
           <img className="rounded-t-lg" src={portretEddy} alt="Portret Eddy" />
           <article className={cn("prose-sm p-4")}>
-            <h5>
-              Eddy Hilderink
-            </h5>
+            <h5>Eddy Hilderink</h5>
             <p className="font-normal">
               Hallo, ik ben Eddy en kom oorspronkelijk uit Huissen. Na mijn
               opleiding fysiotherapie in Deventer, waar ik Geesje heb leren

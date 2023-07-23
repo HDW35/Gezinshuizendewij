@@ -15,7 +15,7 @@ export default function Route() {
     <Layout>
       <section className={cn("prose-config")}>
         <h3>Begeleid wonen</h3>
-        <p>
+        <p className="text-justify">
           Gezinshuizen de Wij heeft 2 woonlocaties die 24/7 wonen, begeleiding
           en zorg bieden aan (jong)volwassenen met LVB problematiek en/of met
           een GGZ indicatie. Onze gezinshuizen hebben een samenwerkingsverband
@@ -23,17 +23,17 @@ export default function Route() {
           instroom, doorstroom en uitstroom met een multidisciplinair
           behandelteam en administratieve ondersteuning.
         </p>
-      </section>
-      <section className={cn("prose-config")}>
-        <video className="h-auto w-full max-w-full" controls>
+        <video className="w-full" controls>
           <source src={houtduifmp4} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video className="h-auto w-full max-w-full" controls>
+        <video className="w-full" controls>
           <source src={torenvalkmp4} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <p>
+      </section>
+      <section className={cn("prose-config")}>
+        <p className="text-justify">
           In Houtduif de Wij en Torenvalk de Wij wonen maximaal negen (jong)
           volwassenen vanaf 17 jaar, begeleid zelfstandig. Beide huizen hebben
           ieder hun eigen sfeer en eigen doelgroep. Een plek waar iedereen mag
@@ -42,7 +42,7 @@ export default function Route() {
           ontwikkeling, relevante daginvulling en het benutten van kansen en
           individuele mogelijkheden zijn belangrijke kernwaarden voor ons.​
         </p>
-        <p>
+        <p className="text-justify">
           Je geeft zelf invulling aan je vrije tijd, maar er worden ook
           gezamenlijke activiteiten ondernomen zoals winkelen, wandelen,
           sporten, fietsen en film kijken. Binnen de veiligheid van het

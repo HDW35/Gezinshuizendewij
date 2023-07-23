@@ -138,7 +138,11 @@ function App() {
 
         <VercelAnalytics />
 
-        <ScrollRestoration />
+        <ScrollRestoration
+          getKey={(location) => {
+            return location.pathname;
+          }}
+        />
         <Scripts />
         <LiveReload />
       </body>

@@ -39,7 +39,7 @@ interface Props
 // The site layout with short enough name
 export function Layout({
   variant = "default",
-  isSpaced = false,
+  isSpaced = true,
   containSize = "default",
 
   className,

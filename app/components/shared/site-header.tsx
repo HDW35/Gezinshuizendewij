@@ -14,9 +14,7 @@ import {
   ThemeToggleButton,
 } from "~/components";
 import { configSite } from "~/configs";
-import {
-  Menu,
-} from "~/icons";
+import { Menu } from "~/icons";
 import { cn } from "~/utils";
 
 interface Props {
@@ -46,8 +44,7 @@ export function SiteHeader({ noThemeToggle }: Props) {
         >
           <HeaderMainLogo noThemeToggle={noThemeToggle} />
           <HeaderMainNavigation navItems={configSite?.navItems} />
-          <div className="hidden w-full lg:flex">
-          </div>
+          <div className="hidden w-full lg:flex"></div>
         </div>
 
         <div
@@ -69,6 +66,7 @@ export function HeaderMainLogo({ noThemeToggle }: { noThemeToggle?: boolean }) {
       <RemixNavLink
         to="/"
         className="block min-w-fit transition-opacity hover:opacity-80"
+        preventScrollReset
       >
         <Logo accent="brand" />
       </RemixNavLink>
@@ -92,6 +90,7 @@ export function HeaderMainNavigation({
               key={index}
               to={item.to}
               prefetch="intent"
+              preventScrollReset
               className={({ isActive }) =>
                 cn(buttonVariants({ variant: "navlink", isActive }))
               }
@@ -140,7 +139,7 @@ export function HeaderNavigationMenu({
           (item, index) =>
             item.to && (
               <DropdownMenuItem key={index} asChild>
-                <RemixNavLink to={item.to} prefetch="intent">
+                <RemixNavLink to={item.to} prefetch="intent" preventScrollReset>
                   <div className={cn("flex gap-2")}>
                     <Icon name={item.icon} />
                     <span>{item.name}</span>

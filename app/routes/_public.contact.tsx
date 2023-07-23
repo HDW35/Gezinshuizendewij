@@ -13,7 +13,7 @@ export const handle = createSitemap("/contact", 0.1);
 export default function Route() {
   return (
     <Layout>
-      <article className="prose-config">
+      <article className="prose-config text-justify">
         <h3>Contact</h3>
         <p>
           Neem contact met ons op. Wil je bij ons komen wonen of heb je vragen
