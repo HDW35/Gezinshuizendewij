@@ -4,6 +4,7 @@ import { SiteHeader, SiteFooter } from "~/components";
 import { cn } from "~/utils";
 
 import type { VariantProps } from "class-variance-authority";
+import headerImg from "../../../public/assets/images/Header_DEF.png";
 
 export const layoutVariants = cva("", {
   variants: {
@@ -51,10 +52,7 @@ export function Layout({
     <div className={cn("flex min-h-screen flex-col")}>
       <SiteHeader noThemeToggle={noThemeToggle} />
 
-      <img
-        src={`/assets/images/header_DEF.png`}
-        alt="Huizen"
-      />
+      <img src={headerImg} alt="Huizen" />
 
       <main
         className={cn(
