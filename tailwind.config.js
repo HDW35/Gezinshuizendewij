@@ -3,7 +3,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class", '[data-theme="dark"]'],
-  content: ["./app/**/*.{ts,tsx}"],
+  content: ["./app/**/*.{ts,tsx}", "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       // To add the fonts, setup in app/configs/fonts.ts
@@ -67,6 +67,7 @@ module.exports = {
     },
   },
   plugins: [
+    require("flowbite/plugin"),
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
     require("tailwindcss-animate"),
