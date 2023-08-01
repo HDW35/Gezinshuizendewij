@@ -48,16 +48,7 @@ export default function Route() {
                 6691 HE Gendt
               </IconInfo>
               <IconInfo icon={<Phone />} href="tel:0481-729737">
-                0481-729737
-              </IconInfo>
-            </div>
-            <Separator />
-            <div className="pb-1">
-              <IconInfo icon={<User className="dim dark:dim m-2" />}>
-                Geesje Hilderink
-              </IconInfo>
-              <IconInfo icon={<Smartphone />} href="tel:06-25162284">
-                06-25162284
+                06-21907019
               </IconInfo>
             </div>
             <Separator />
@@ -65,8 +56,17 @@ export default function Route() {
               <IconInfo icon={<User className="dim dark:dim m-2" />}>
                 Eddy Hilderink
               </IconInfo>
-              <IconInfo icon={<Smartphone />} href="tel:06-54766550">
+              <IconInfo icon={<Smartphone />} href="tel:06-25162284">
                 06-54766550
+              </IconInfo>
+            </div>
+            <Separator />
+            <div className="pb-1">
+              <IconInfo icon={<User className="dim dark:dim m-2" />}>
+                Ingo D'Hont
+              </IconInfo>
+              <IconInfo icon={<Smartphone />} href="tel:06-54766550">
+                06-22083819
               </IconInfo>
             </div>
             <Separator />
