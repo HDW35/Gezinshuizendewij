@@ -20,15 +20,15 @@ export default function Route() {
         <h3>Wie zijn wij?</h3>
         <p>Het team van Gezinshuizen de Wij bestaat uit:</p>
         <p>
-          Eddy en Geesje Hilderink, gezinsouders. Lotte Blom, begeleider. Ilva
-          Hilderink, begeleider Ingo D'Hont, begeleider. Tessa, begeleider.
+          Eddy Hilderink, gezinsouder. Ingo en Ilva D'Hont-Hilderink, gezinsouders. 
+          Lotte Blom, begeleider. Tessa Peters, begeleider.
         </p>
         <p>
-          Als gezinshuizen hebben wij onze eigen identiteit en zorgen wij samen,
-          als 1 kleinschalig team, voor persoonlijke begeleiding, met ruimte
-          voor eigen initiatief voor zowel begeleider als bewoner. Elke dag
-          vertrouwde gezichten in de dagelijks begeleiding. Samen leven, samen
-          wonen, samen plezier maken en met positieve aandacht voor elkaar.
+          Als gezinshuizen de Wij hebben wij onze eigen identiteit en zorgen 
+          wij samen, als 1 kleinschalig team, voor persoonlijke begeleiding, 
+          met ruimte voor eigen initiatief voor zowel begeleider als bewoner. 
+          Elke dag vertrouwde gezichten in de dagelijks begeleiding. Samen leven, 
+          samen wonen, samen plezier maken en met positieve aandacht voor elkaar.
         </p>
       </section>
       <section className="flex flex-wrap gap-4">
