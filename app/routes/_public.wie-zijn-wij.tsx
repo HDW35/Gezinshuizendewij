@@ -55,46 +55,31 @@ export default function Route() {
         <Card className="max-w-sm rounded-lg">
           <img
             className="rounded-t-lg"
-            src={portretGeesje}
-            alt="Portret Geesje"
+            src={portretIngo}
+            alt="Portret Ingo"
           />
           <article className={cn("prose-sm p-4")}>
-            <h5>Geesje Hilderink</h5>
+            <h5>Ingo D'Hont</h5>
             <p>
-              In Memoriam.
-              Op 3 december 2021 is Geesje na een periode van ziek zijn, helaas
-              overleden. Geesje is de drijvende kracht geweest bij de start
-              van ons gezinshuis.
-              Ze was een warme, zorgzame en sterke persoonlijkheid, voor vele
-              bewoners een drijvende kracht. Rechtvaardig voor de bewoners,
-              zonder oordeel een thuis geven en waarden meegeven voor een te
-              ontwikkelen toekomst.
+              Hallo, ik ben Ingo en samen met mijn vrouw Ilva woon ik sinds
+              november 2016 in het privé gedeelte van de Torenvalk. Ilva en ik
+              kennen elkaar vanuit onze opleidingsperiode in Vlissingen ik ben
+              daar afgestudeerd als Civiel Ingenieur. Om mij als persoonlijk
+              begeleider verder te ontwikkelen ben ik bezig met een opleiding
+              binnen de sociale/pedagogische sector. Ik vind het als begeleider
+              belangrijk dat je een zinvolle invulling van de dag hebt. Werk,
+              school, opleiding of een vorm van dagbesteding zijn hierbij
+              belangrijk. Graag wil ik samen met jou werken aan je wensen voor
+              een zinvolle, passende dag invulling.
             </p>
           </article>
         </Card>
         <Card className="max-w-sm rounded-lg">
           <img
             className="rounded-t-lg"
-            src={portretLotte}
-            alt="Portret Lotte"
+            src={portretIlva}
+            alt="Portret Ilva"
           />
-          <article className={cn("prose-sm p-4")}>
-            <h5>Lotte Blom</h5>
-            <p>
-              Hallo, ik ben Lotte en woon in Arnhem-Zuid. Ik heb de opleiding
-              verzorgde niveau 3 gedaan. Als stagiaire ben ik bij de Karmel
-              begonnen en daarna als woonbegeleider in de Slangenburg en later
-              de Wij. Inmiddels werk ik 8 jaar bij de Wij, waarvan de laatste 5
-              jaar samen met Eddy en Geesje. Ik wil je graag vanuit een veilige,
-              huiselijke omgeving helpen om samen te ontdekken wie je bent en
-              wat je aan nieuwe dingen ten aanzien van zelfstandigheid. Bij het
-              ontwikkelen van toenemende zelfstandigheid en vrijheid hoort ook
-              het nemen van persoonlijke verantwoordelijkheid.
-            </p>
-          </article>
-        </Card>
-        <Card className="max-w-sm rounded-lg">
-          <img className="rounded-t-lg" src={portretIlva} alt="Portret Ilva" />
           <article className={cn("prose-sm p-4")}>
             <h5>Ilva Hilderink</h5>
             <p>
@@ -112,20 +97,28 @@ export default function Route() {
           </article>
         </Card>
         <Card className="max-w-sm rounded-lg">
-          <img className="rounded-t-lg" src={portretIngo} alt="Portret Ingo" />
+          <img className="rounded-t-lg" src={portretLotte} alt="Portret Lotte" />
           <article className={cn("prose-sm p-4")}>
-            <h5>Ingo D'Hont</h5>
+            <h5>Lotte Blom</h5>
             <p>
-              Hallo, ik ben Ingo en samen met mijn vrouw Ilva woon ik sinds
-              november 2016 in het privé gedeelte van de Torenvalk. Ilva en ik
-              kennen elkaar vanuit onze opleidingsperiode in Vlissingen ik ben
-              daar afgestudeerd als Civiel Ingenieur. Om mij als persoonlijk
-              begeleider verder te ontwikkelen ben ik bezig met een opleiding
-              binnen de sociale/pedagogische sector. Ik vind het als begeleider
-              belangrijk dat je een zinvolle invulling van de dag hebt. Werk,
-              school, opleiding of een vorm van dagbesteding zijn hierbij
-              belangrijk. Graag wil ik samen met jou werken aan je wensen voor
-              een zinvolle, passende dag invulling.
+              Hallo, ik ben Lotte en woon in Arnhem-Zuid. Ik heb de opleiding
+              verzorgde niveau 3 gedaan. Als stagiaire ben ik bij de Karmel
+              begonnen en daarna als woonbegeleider in de Slangenburg en later
+              de Wij. Inmiddels werk ik 8 jaar bij de Wij, waarvan de laatste 5
+              jaar samen met Eddy en Geesje. Ik wil je graag vanuit een veilige,
+              huiselijke omgeving helpen om samen te ontdekken wie je bent en
+              wat je aan nieuwe dingen ten aanzien van zelfstandigheid. Bij het
+              ontwikkelen van toenemende zelfstandigheid en vrijheid hoort ook
+              het nemen van persoonlijke verantwoordelijkheid.
+            </p>
+          </article>
+        </Card>
+        <Card className="max-w-sm rounded-lg">
+          <img className="rounded-t-lg" src={portretTessa} alt="Portret Tessa" />
+          <article className={cn("prose-sm p-4")}>
+            <h5>Tessa Peters</h5>
+            <p>
+              Kennismaking Tessa
             </p>
           </article>{" "}
         </Card>
@@ -136,18 +129,16 @@ export default function Route() {
             alt="Portret Geesje"
           />
           <article className={cn("prose-sm p-4")}>
-            <h5>Ingo D'Hont</h5>
+            <h5>Geesje Hilderink</h5>
             <p>
-              Hallo, ik ben Ingo en samen met mijn vrouw Ilva woon ik sinds
-              november 2016 in het privé gedeelte van de Torenvalk. Ilva en ik
-              kennen elkaar vanuit onze opleidingsperiode in Vlissingen ik ben
-              daar afgestudeerd als Civiel Ingenieur. Om mij als persoonlijk
-              begeleider verder te ontwikkelen ben ik bezig met een opleiding
-              binnen de sociale/pedagogische sector. Ik vind het als begeleider
-              belangrijk dat je een zinvolle invulling van de dag hebt. Werk,
-              school, opleiding of een vorm van dagbesteding zijn hierbij
-              belangrijk. Graag wil ik samen met jou werken aan je wensen voor
-              een zinvolle, passende dag invulling.
+              In Memoriam.
+              Op 3 december 2021 is Geesje na een periode van ziek zijn, helaas
+              overleden. Geesje is de drijvende kracht geweest bij de start
+              van ons gezinshuis.
+              Ze was een warme, zorgzame en sterke persoonlijkheid, voor vele
+              bewoners een drijvende kracht. Rechtvaardig voor de bewoners,
+              zonder oordeel een thuis geven en waarden meegeven voor een te
+              ontwikkelen toekomst.
             </p>
           </article>
         </Card>
