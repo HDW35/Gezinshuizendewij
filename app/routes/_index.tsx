@@ -13,10 +13,14 @@ export default function Route() {
           landelijk gelegen boerderijen in Gendt.
         </p>
         <p>
-          Geesje en Eddy Hilderink zijn de gezinsouders. Samen in een team met
-          Lotte, Ilva en Ingo zorgen zij voor de dagelijkse, persoonlijke
-          begeleiding. Geesje en Eddy zijn inmiddels ruim 37 jaar geleden
-          getrouwd waarbij toen hun thema was:
+          Eddy, Ingo en Ilva zijn de gezinsouders. Samen in een team met Lotte 
+          en Tessa zorgen zij voor de dagelijkse, persoonlijke begeleiding.
+          Eddy en Geesje Hilderink zijn 1 januari 2016 als gezinsouders gestart.
+          In november 2016 zijn dochter Ilva en schoonzoon Ingo in de Torenvalk
+          komen wonen en ook betrokken in het gezinshuis. De gezinshuizen zijn
+          daarmee ook meer een familiehuis geworden.
+          Geesje en Eddy waren in oktober 2021 40 jaar geleden getrouwd waarbij
+          toen hun thema was en ook nog steeds is:
         </p>
         <p>Niet ik, niet jij, …..maar wij!</p>
         <p>
