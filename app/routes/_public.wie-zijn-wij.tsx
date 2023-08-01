@@ -61,17 +61,14 @@ export default function Route() {
           <article className={cn("prose-sm p-4")}>
             <h5>Geesje Hilderink</h5>
             <p>
-              Hallo, ik ben Geesje en kom oorspronkelijk uit Arnhem-Zuid. Na
-              mijn opleiding fysiotherapie in Deventer, waar ik Eddy heb leren
-              kennen, heb ik ruim 35 jaar in Lelystad gewoond en gewerkt als
-              zelfstandig fysiotherapeut met diverse specialisaties. In 2015
-              hebben Eddy en ik samen gekozen om het roer om te gooien door
-              terug te gaan naar het oosten van het land en als gezinsouders te
-              gaan werken. Voor mij zijn respect en eerlijkheid voor jezelf en
-              voor anderen belangrijke kernwaarden. We respecteren onze
-              medebewoners, onze begeleiders, houden rekening met elkaar en
-              waarderen de inbreng van allen. Een goede, open communicatie is
-              hierbij essentieel.
+              In Memoriam.
+              Op 3 december 2021 is Geesje na een periode van ziek zijn, helaas
+              overleden. Geesje is de drijvende kracht geweest bij de start
+              van ons gezinshuis.
+              Ze was een warme, zorgzame en sterke persoonlijkheid, voor vele
+              bewoners een drijvende kracht. Rechtvaardig voor de bewoners,
+              zonder oordeel een thuis geven en waarden meegeven voor een te
+              ontwikkelen toekomst.
             </p>
           </article>
         </Card>
