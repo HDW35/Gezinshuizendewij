@@ -20,15 +20,16 @@ export default function Route() {
         <h3>Wie zijn wij?</h3>
         <p>Het team van Gezinshuizen de Wij bestaat uit:</p>
         <p>
-          Eddy Hilderink, gezinsouder. Ingo en Ilva D'Hont-Hilderink, gezinsouders. 
-          Lotte Blom, begeleider. Tessa Peters, begeleider.
+          Eddy Hilderink, gezinsouder. Ingo en Ilva D'Hont-Hilderink,
+          gezinsouders. Lotte Blom, begeleider. Tessa Peters, begeleider.
         </p>
         <p>
-          Als gezinshuizen de Wij hebben wij onze eigen identiteit en zorgen 
-          wij samen, als 1 kleinschalig team, voor persoonlijke begeleiding, 
-          met ruimte voor eigen initiatief voor zowel begeleider als bewoner. 
-          Elke dag vertrouwde gezichten in de dagelijks begeleiding. Samen leven, 
-          samen wonen, samen plezier maken en met positieve aandacht voor elkaar.
+          Als gezinshuizen de Wij hebben wij onze eigen identiteit en zorgen wij
+          samen, als 1 kleinschalig team, voor persoonlijke begeleiding, met
+          ruimte voor eigen initiatief voor zowel begeleider als bewoner. Elke
+          dag vertrouwde gezichten in de dagelijks begeleiding. Samen leven,
+          samen wonen, samen plezier maken en met positieve aandacht voor
+          elkaar.
         </p>
       </section>
       <section className="flex flex-wrap gap-4">
@@ -53,11 +54,7 @@ export default function Route() {
           </article>
         </Card>
         <Card className="max-w-sm rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src={portretIngo}
-            alt="Portret Ingo"
-          />
+          <img className="rounded-t-lg" src={portretIngo} alt="Portret Ingo" />
           <article className={cn("prose-sm p-4")}>
             <h5>Ingo D'Hont</h5>
             <p>
@@ -75,11 +72,7 @@ export default function Route() {
           </article>
         </Card>
         <Card className="max-w-sm rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src={portretIlva}
-            alt="Portret Ilva"
-          />
+          <img className="rounded-t-lg" src={portretIlva} alt="Portret Ilva" />
           <article className={cn("prose-sm p-4")}>
             <h5>Ilva Hilderink</h5>
             <p>
@@ -97,7 +90,11 @@ export default function Route() {
           </article>
         </Card>
         <Card className="max-w-sm rounded-lg">
-          <img className="rounded-t-lg" src={portretLotte} alt="Portret Lotte" />
+          <img
+            className="rounded-t-lg"
+            src={portretLotte}
+            alt="Portret Lotte"
+          />
           <article className={cn("prose-sm p-4")}>
             <h5>Lotte Blom</h5>
             <p>
@@ -114,12 +111,10 @@ export default function Route() {
           </article>
         </Card>
         <Card className="max-w-sm rounded-lg">
-          <img className="rounded-t-lg" src={portretTessa} alt="Portret Tessa" />
+          <img className="rounded-t-lg" src={portretIlva} alt="Portret Tessa" />
           <article className={cn("prose-sm p-4")}>
             <h5>Tessa Peters</h5>
-            <p>
-              Kennismaking Tessa
-            </p>
+            <p>Kennismaking Tessa</p>
           </article>{" "}
         </Card>
         <Card className="max-w-sm rounded-lg">
@@ -131,14 +126,12 @@ export default function Route() {
           <article className={cn("prose-sm p-4")}>
             <h5>Geesje Hilderink</h5>
             <p>
-              In Memoriam.
-              Op 3 december 2021 is Geesje na een periode van ziek zijn, helaas
-              overleden. Geesje is de drijvende kracht geweest bij de start
-              van ons gezinshuis.
-              Ze was een warme, zorgzame en sterke persoonlijkheid, voor vele
-              bewoners een drijvende kracht. Rechtvaardig voor de bewoners,
-              zonder oordeel een thuis geven en waarden meegeven voor een te
-              ontwikkelen toekomst.
+              In Memoriam. Op 3 december 2021 is Geesje na een periode van ziek
+              zijn, helaas overleden. Geesje is de drijvende kracht geweest bij
+              de start van ons gezinshuis. Ze was een warme, zorgzame en sterke
+              persoonlijkheid, voor vele bewoners een drijvende kracht.
+              Rechtvaardig voor de bewoners, zonder oordeel een thuis geven en
+              waarden meegeven voor een te ontwikkelen toekomst.
             </p>
           </article>
         </Card>

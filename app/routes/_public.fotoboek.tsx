@@ -40,7 +40,7 @@ export const handle = createSitemap("/fotoboek", 0.1);
 
 export default function Route() {
   const { tags, resources, frontResources } = useLoaderData<typeof loader>();
-  const [tag, setTag] = useState<string>("sample");
+  const [tag, setTag] = useState<string>("activiteiten");
   const [currentResources, setCurrentResources] = useState<[]>([]);
 
   const reference = useRef(null);
@@ -107,6 +107,7 @@ export default function Route() {
                     key={tagAll}
                     data-state={tagAll === tag ? "active" : "inactive"}
                     value={tagAll}
+                    className="hover:bg-brand-500/20"
                   >
                     {tagAll}
                   </TabsTrigger>
