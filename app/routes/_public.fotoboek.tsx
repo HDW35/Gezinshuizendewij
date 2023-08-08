@@ -109,7 +109,7 @@ export default function Route() {
                     value={tagAll}
                     className="hover:bg-brand-500/20"
                   >
-                    {tagAll}
+                    {reformatTagString(tagAll)}
                   </TabsTrigger>
                 );
               })}

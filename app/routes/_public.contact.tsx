@@ -28,7 +28,7 @@ export default function Route() {
           className="xs:hidden hidden max-h-[440px] pr-6 sm:block"
           alt="Banner"
         />
-        <div>
+        <div className="flex flex-col self-end">
           <h4 className="flex pb-4">
             <Home />
             <span className="ml-2">Houtduif en Torenvalk de Wij</span>

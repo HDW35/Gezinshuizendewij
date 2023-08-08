@@ -5,6 +5,7 @@ import portretGeesje from "../../public/assets/images/Portret-Geesje.jpg";
 import portretLotte from "../../public/assets/images/Portret-Lotte.jpg";
 import portretIngo from "../../public/assets/images/Portret-Ingo.jpg";
 import portretIlva from "../../public/assets/images/Portret-Ilva.jpg";
+import portretTessa from "../../public/assets/images/Portret-Tessa.jpg";
 
 export const meta = createMetaData({
   title: "Wie zijn wij",
@@ -21,13 +22,15 @@ export default function Route() {
         <p>Het team van Gezinshuizen de Wij bestaat uit:</p>
         <p>
           Eddy Hilderink, gezinsouder. Ingo en Ilva D'Hont-Hilderink,
-          gezinsouders. Lotte Blom, begeleider. Tessa Peters, begeleider.
+          gezinsouders.
+          <br></br>
+          Lotte Blom, begeleider. Tessa Peters, begeleider.
         </p>
         <p>
           Als gezinshuizen de Wij hebben wij onze eigen identiteit en zorgen wij
           samen, als 1 kleinschalig team, voor persoonlijke begeleiding, met
           ruimte voor eigen initiatief voor zowel begeleider als bewoner. Elke
-          dag vertrouwde gezichten in de dagelijks begeleiding. Samen leven,
+          dag vertrouwde gezichten in de dagelijkse begeleiding. Samen leven,
           samen wonen, samen plezier maken en met positieve aandacht voor
           elkaar.
         </p>
@@ -60,7 +63,7 @@ export default function Route() {
             <p>
               Hallo, ik ben Ingo en samen met mijn vrouw Ilva woon ik sinds
               november 2016 in het privé gedeelte van de Torenvalk. Ilva en ik
-              kennen elkaar vanuit onze opleidingsperiode in Vlissingen ik ben
+              kennen elkaar vanuit onze opleidingsperiode in Vlissingen. Ik ben
               daar afgestudeerd als Civiel Ingenieur. Om mij als persoonlijk
               begeleider verder te ontwikkelen ben ik bezig met een opleiding
               binnen de sociale/pedagogische sector. Ik vind het als begeleider
@@ -80,8 +83,8 @@ export default function Route() {
               november 2016 in het privé gedeelte van de Torenvalk. Ingo en ik
               kennen elkaar vanuit onze opleidingsperiode in Vlissingen. Ik maak
               onderdeel uit van het begeleidingsteam de Wij en werk daarnaast
-              parttime als verloskundige en als obstetrie verpleegkundige. Ik
-              vind het als begeleider belangrijk om uit te gaan van jouw eigen
+              ook nog als verloskundige.
+              Ik vind het als begeleider belangrijk om uit te gaan van jouw eigen
               talent, de dingen waar jij goed in bent. Vanuit je eigen talent
               kun je op je eigen tempo, waar mogelijk samen met je persoonlijke
               netwerk, met persoonlijke afspraken je eigen mogelijkheden verder
@@ -99,10 +102,10 @@ export default function Route() {
             <h5>Lotte Blom</h5>
             <p>
               Hallo, ik ben Lotte en woon in Arnhem-Zuid. Ik heb de opleiding
-              verzorgde niveau 3 gedaan. Als stagiaire ben ik bij de Karmel
+              verzorgde niveau 3 gedaan. Als stagiaire ben ik bij de Albero
               begonnen en daarna als woonbegeleider in de Slangenburg en later
-              de Wij. Inmiddels werk ik 8 jaar bij de Wij, waarvan de laatste 5
-              jaar samen met Eddy en Geesje. Ik wil je graag vanuit een veilige,
+              de Wij. Inmiddels werk ik 10 jaar bij de Wij, waarvan de laatste 7
+              jaar samen met Eddy, Ingo en Ilva. Ik wil je graag vanuit een veilige,
               huiselijke omgeving helpen om samen te ontdekken wie je bent en
               wat je aan nieuwe dingen ten aanzien van zelfstandigheid. Bij het
               ontwikkelen van toenemende zelfstandigheid en vrijheid hoort ook
@@ -111,7 +114,7 @@ export default function Route() {
           </article>
         </Card>
         <Card className="max-w-sm rounded-lg">
-          <img className="rounded-t-lg" src={portretIlva} alt="Portret Tessa" />
+          <img className="rounded-t-lg" src={portretTessa} alt="Portret Tessa" />
           <article className={cn("prose-sm p-4")}>
             <h5>Tessa Peters</h5>
             <p>Kennismaking Tessa</p>
@@ -126,7 +129,8 @@ export default function Route() {
           <article className={cn("prose-sm p-4")}>
             <h5>Geesje Hilderink</h5>
             <p>
-              In Memoriam. Op 3 december 2021 is Geesje na een periode van ziek
+              In Memoriam. <br></br>
+              Op 3 december 2021 is Geesje na een periode van ziek
               zijn, helaas overleden. Geesje is de drijvende kracht geweest bij
               de start van ons gezinshuis. Ze was een warme, zorgzame en sterke
               persoonlijkheid, voor vele bewoners een drijvende kracht.
