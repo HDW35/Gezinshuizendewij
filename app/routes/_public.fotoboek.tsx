@@ -97,9 +97,9 @@ export default function Route() {
             setTag(value);
             handleClick();
           }}
-          className="w-full pt-4"
+          className="flex w-full flex-wrap justify-center pt-4"
         >
-          <TabsList className="mb-2">
+          <TabsList className="mb-2 inline-flex flex-row flex-wrap">
             {tags &&
               tags.map((tagAll: string) => {
                 return (
@@ -121,7 +121,7 @@ export default function Route() {
               currentResources.map((img) => <img src={img} />)}
           </Carousel>
         </AspectRatio>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap justify-center gap-4">
           {tags &&
             tags.map((tagAll: string) => {
               return (
@@ -133,7 +133,12 @@ export default function Route() {
                     handleClick();
                   }}
                 >
-                  <img className="rounded-t-lg" src={getFrontImage(tagAll)} />
+                  <div className="flex h-full flex-nowrap">
+                    <img
+                      className="rounded-t-lg object-fill"
+                      src={getFrontImage(tagAll)}
+                    />
+                  </div>
                   <h5 className="flex justify-center py-2">
                     {reformatTagString(tagAll)}
                   </h5>
