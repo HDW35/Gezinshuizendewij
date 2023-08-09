@@ -117,7 +117,18 @@ export default function Route() {
           <img className="rounded-t-lg" src={portretTessa} alt="Portret Tessa" />
           <article className={cn("prose-sm p-4")}>
             <h5>Tessa Peters</h5>
-            <p>Kennismaking Tessa</p>
+            <p>
+            Sinds 2019 ben ik werkzaam bij de Wij. De eerste drie jaar heb ik als
+            oproepkracht gewerkt, omdat ik naast mijn studie ook werkzaam was als bewindvoerder.
+            Eind 2022 de keus gemaakt om alleen te gaan werken als begeleider wonen. Dit is
+            voor mij een goede keuze geweest daar ik (direct) persoonlijk contact enorm
+            belangrijk vind. Ik neem graag de tijd voor iemand en ben dan ook graag een
+            luisterend oor. Dit zowel voor de leuke dingen van het leven, maar ook de lastige
+            dingen in het leven. Daarnaast ben ik van het principe “eerst zelf proberen”, wanneer
+            iets gelukt is een klein feestje te vieren en anders iemand handvaten te geven om
+            verder te kunnen. Het is bijzonder om te zien hoe dit de zelfstandigheid bevordert en
+            hoe iemand op zichzelf durft te gaan vertrouwen.
+            </p>
           </article>{" "}
         </Card>
         <Card className="max-w-sm rounded-lg">
